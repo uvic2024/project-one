@@ -28,7 +28,7 @@ const Contact = () => {
             <div className="row align-items-center g-lg-5 py-5">
                 <div className="col-lg-7 text-center text-lg-start">
                     <p className="col-lg-10 fs-4">Email <a href="usavisainfo@gmail.com">usavisainfo@gmail.com</a>.</p>
-                    <p className="col-lg-10 fs-4">Contact +1 234 56789</p>
+{/*                     <p className="col-lg-10 fs-4">Contact +1 234 56789</p> */}
                 </div>
                 <div className="col-md-10 mx-auto col-lg-5">
                     {msg &&
