@@ -47,7 +47,7 @@ const Contact = () => {
                         <label htmlFor="floatingInput">Email address</label>
                     </div>
                     <div className="form-floating mb-3">
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message" className="pt-0">Message</label>
                         <textarea name="message" className="form-control" value={message} onChange={(e)=>setMessage(e.target.value)}></textarea>
                     </div>
                     <button className="w-100 btn btn-lg btn-primary-c" type="submit">Send</button>
