@@ -43,7 +43,7 @@ const Contact = () => {
                     }
                     <form className="p-4 p-md-5 border rounded-3 bg-light" onSubmit={(e)=>handleSubmit(e)}>
                     <div className="form-floating mb-3">
-                        <input type="email" className="form-control" id="floatingInput" value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="name@example.com"/>
+                        <input type="email" className="form-control" value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="name@example.com"/>
                         <label htmlFor="floatingInput">Email address</label>
                     </div>
                     <div className="form-floating mb-3">
